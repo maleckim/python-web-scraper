@@ -21,8 +21,10 @@ newsObj.append({
   'link': link
   })
 
+
 with open('news.json','w') as outfile:
   json.dump(newsObj, outfile)
+  
 
 with open('news.json','r') as n:
   news = json.load(n)
