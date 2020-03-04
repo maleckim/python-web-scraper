@@ -1,4 +1,5 @@
 import requests
+import json
 from bs4 import BeautifulSoup
 
 URL = 'https://www.monster.com/jobs/search/?q=Software-Developer&where=Australia'
